@@ -1,0 +1,258 @@
+html,
+body {
+    font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', Helvetica,
+        Tahoma, Arial, sans-serif;
+}
+
+.masterPageCon {
+    min-height: 670px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('https://img.hzanchu.com/acimg/3640e169a3c50ed8e442544f2aea55b6.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.leftPart {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 620px;
+    height: 100%;
+    background-image: url('https://img.hzanchu.com/acimg/eb0efcbb3a5894f222a2fc8d25450ffd.png');
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.welcome {
+    line-height: 38px;
+    font-size: 38px;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.hrLine {
+    width: 291px;
+    height: 1px;
+    opacity: 0.76;
+    background: #fff;
+    margin-top: 36px;
+    margin-bottom: 25px;
+}
+
+.name {
+    line-height: 38px;
+    font-size: 38px;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.centerCon {
+    height: 660px;
+    width: 1200px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rightPart {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 600px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    z-index: 2;
+}
+
+.formCon {
+    width: 404px;
+    margin: 0 auto;
+    padding-top: 130px;
+    box-sizing: border-box;
+}
+
+.activeTypeCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 26px;
+    color: #ccc;
+    line-height: 26px;
+    margin-bottom: 52px;
+}
+
+.vertialLine {
+    margin-left: 43px;
+    margin-right: 43px;
+    width: 1px;
+    height: 24px;
+    background-color: #ccc;
+}
+
+.activeItem {
+    color: #4190f7;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+.firstFormCon {
+}
+
+.secondFormCon {
+}
+
+.loginBtn {
+    width: 100%;
+    height: 50px;
+    opacity: 1;
+    background-color: #4190f7;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 7px;
+    border: 1px solid transparent;
+    outline: 0;
+    cursor: pointer;
+
+    &[disabled] {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+}
+
+.firstFormFirstLineCon {
+    width: 100%;
+    height: 50px;
+    opacity: 0.4;
+    border: 1px solid #999999;
+    border-radius: 26px;
+    padding-left: 26px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.firstFormSecondFakeInputCon {
+    width: 200px;
+    height: 50px;
+    opacity: 0.4;
+    border: 1px solid #999999;
+    border-radius: 26px;
+    padding-left: 26px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.getSms {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    width: 176px;
+    height: 50px;
+    background-color: #4190f7;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    outline: 0;
+    cursor: pointer;
+
+    &[disabled] {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+}
+
+.firstFormFirstInput {
+    width: 330px;
+}
+
+.firstFormSecondInput {
+    width: 200px;
+}
+
+.password1 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.phone {
+    width: 16px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.account {
+    width: 18px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.firstFormSecondLineCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 112px;
+}
+
+.secondFormFirstLineCon {
+    width: 100%;
+    height: 50px;
+    opacity: 0.4;
+    border: 1px solid #999999;
+    border-radius: 26px;
+    padding-left: 26px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.secondFormFirstInput {
+    width: 330px;
+}
+
+.secondFormSecondLineCon {
+    width: 100%;
+    height: 50px;
+    opacity: 0.4;
+    border: 1px solid #999999;
+    border-radius: 26px;
+    padding-left: 26px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    margin-top: 42px;
+    margin-bottom: 110px;
+}

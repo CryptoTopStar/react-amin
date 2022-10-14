@@ -1,0 +1,90 @@
+.IntegrationPageCon {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+.bigBlockCon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.bigBlockItem {
+    margin-right: 10px;
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+
+    .bigBlockItemText {
+        font-size: 24px;
+        color: #333;
+        line-height: 24px;
+        letter-spacing: 3px;
+    }
+
+    img {
+        width: 82px;
+        height: 82px;
+        border-radius: 41px;
+        overflow: hidden;
+        margin-bottom: 17px;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.IntegrationPageLeftCon {
+    margin-right: 20px;
+    padding-top: 34px;
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 500px;
+}
+
+.IntegrationPageRightCon {
+    width: 920px;
+    background-color: #fff;
+    min-height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    padding: 35px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.IntegrationPageLeftCon {
+    :global {
+        .ant-menu-title-content {
+            text-align: center;
+        }
+
+        .ant-menu-vertical > .ant-menu-item,
+        .ant-menu-vertical-left > .ant-menu-item,
+        .ant-menu-vertical-right > .ant-menu-item,
+        .ant-menu-inline > .ant-menu-item,
+        .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+        .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+        .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+        .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+            height: 60px;
+            line-height: 60px;
+            font-size: 18px;
+            text-align: center;
+            color: #333;
+            letter-spacing: 2px;
+        }
+    }
+}

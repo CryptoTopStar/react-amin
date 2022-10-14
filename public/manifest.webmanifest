@@ -1,0 +1,12 @@
+{
+  "name": "PingHu Data Store",
+  "short_name": "ph-ds",
+  "description": "平湖数字协同平台.",
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#092855",
+  "background_color": "#F2ECEE",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "50x50", "type": "image/x-icon" }
+  ]
+}

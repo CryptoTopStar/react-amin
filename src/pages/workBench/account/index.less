@@ -1,0 +1,107 @@
+.masterPageCon {
+    box-sizing: border-box;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.innerCon {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.active1InputCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.active1InputLeftCon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.active1InputLeftConTitle {
+    width: 80px;
+}
+
+.active1InputRightCon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.tabAddonCon {
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+.titleCon {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.active1TableMaster {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 12px;
+}
+
+.active1NewCon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.listAvatar {
+    width: 25px;
+    height: 25px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.SZBOptions1Con {
+    width: 300px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.SZBOptions2Con {
+    width: 200px !important;
+}
+:global {
+    .avatar-uploader > .ant-upload {
+        width: 128px;
+        height: 128px;
+    }
+}
+
+.requiredRed {
+    :global {
+        .ant-form-item-label > label {
+            &::before {
+                display: inline-block;
+                margin-right: 4px;
+                color: #ff4d4f;
+                font-size: 14px;
+                font-family: SimSun, sans-serif;
+                line-height: 1;
+                content: '*';
+            }
+        }
+    }
+}
