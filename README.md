@@ -1,7 +1,6 @@
-# 数字乡村工作台
+
 
 ## Getting Started
-
 
 
 Install dependencies,
